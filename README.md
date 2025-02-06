@@ -27,9 +27,9 @@ State management also implemented like documents that are uploaded are stored in
 
    ```bash
    git clone <repository-url>
-   cd doc-chat-backend
+   cd backend
    ```
-2.**Create a .env file in the root directory and add your Google API key:**
+2.**Create a .env file in the root directory(backend) and add your Google API key:**
 
 ```bash
 GOOGLE_API_KEY=your-google-api-key
@@ -45,3 +45,21 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 The backend will be running at http://localhost:8000.
+
+## Frontend Setup
+
+```bash
+cd client
+```
+
+then install the dependencies
+
+```bash
+npm install
+```
+
+then run
+
+```bash
+npm run dev
+```
